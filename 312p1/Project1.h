@@ -1,5 +1,5 @@
-#ifndef SHIFT_MACROS_H
-#define SHIFT_MACROS_H
+#ifndef PROJECT1_H
+#define PROJECT1_H
 
 
 //defining binary left and right shift
