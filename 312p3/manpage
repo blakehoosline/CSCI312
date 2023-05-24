@@ -1,0 +1,23 @@
+Project 3
+
+NAME
+Project 3
+server that uses sockets to play Rock Paper Scissors
+
+SYNOPSIS
+make - run the makefile
+./client - run in a server
+./ServerC - run in another server
+
+DESCRIPTION
+The game is Rock Paper Scissors and is played by the users entering 1, 2, or 3 that correspond with Rock, Paper or Scissors. In each round the client picks an option and then the server randomly pick then simultaneously displays the winner. The winning combinations are standard paper beats rock, rock beats scissors, scissors beats paper and all other combonations being a draw. For each different run of the program n and m are randomly selected to be best: 2 out of 3, 3 out of 5, 4 out of 7, or 5 out 9. The server is a concurrent server which executes a fork system call to create a child process to handle a client connection. The child process executes another program called ServerG which performs the server tasks for playing the game. The client is responsible for all communication with the human user who is playing the game. The game ends when the client or the server reaches the randomly selected best out of games to win.
+
+FILES
+soc.h
+shared.h
+ServerC.c
+ServerG.c
+client.c
+
+CREDITS
+Blake Hoosline, Myint Aung, Romeo Mouk, & Rakesh Agarwala
